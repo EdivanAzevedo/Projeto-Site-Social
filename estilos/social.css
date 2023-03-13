@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+img {
+  width: 100vw;
+}
+
+a#facebook {
+  background-color: blue;
+}
+
+a#facebook:hover {
+  background-color: darkblue;
+}
+
+a#git {
+  background-color: white;
+  color: black;
+}
+
+a#git:hover {
+  background-color: lightgray;
+}
+
+a#insta {
+  background-color: white;
+  color: black;
+}
+
+a#insta:hover {
+  background-color: lightgray;
+}
+
+a {
+  display: block;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: red;
+}
